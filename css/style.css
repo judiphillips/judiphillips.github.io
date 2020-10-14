@@ -1,0 +1,110 @@
+.nav-link:hover,
+.nav-link:visited {
+  color: black;
+  font-weight: 600;
+  transform: scale(1.2);
+  transition: 500;
+  box-shadow: 1px 9px 3px #e9ecef;
+  background-color: #e9ecef;
+
+}
+
+h3 {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+.card-body {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 2px 4px 6px rgb(10, 10, 10);
+  min-height: 70%;
+
+}
+
+.card-body:hover,
+.card-body:active {
+  background-color: #ffffff;
+  transform: scale(1.1);
+  transition: .2s;
+
+}
+
+.card-btn {
+  min-width: 20vw;
+  background-color: rgb(108, 117, 125);
+  box-shadow: 2px 4px 6px rgb(10, 10, 10);
+}
+
+.card-btn:hover,
+.card-btn:active {
+  background-color: rgb(240, 92, 24);
+  border: none;
+}
+
+.divider {
+  margin: 3rem 0;
+
+}
+
+.app-divider {
+
+  background-color: #e9ecef;
+  /* background-color: #b6b8b9; */
+}
+
+.img-tablet {
+  min-width: 100px;
+  max-height: 400px;
+  padding-bottom: 0;
+}
+
+
+.img-robot {
+  min-width: 20rem;
+  aspect-ratio: 1 / 1;
+}
+
+.img-cert {
+  display: grid;
+  place-items: center;
+
+}
+
+.img-cert:hover,
+.img-cert:active {
+  transform: scale(1.3);
+  transition: .2s;
+}
+
+.logo-rainbow {
+  font-size: 1.8rem;
+
+}
+
+.globe-rainbow {
+  color: rgb(240, 92, 24);
+  padding-right: .4rem;
+  font-size: 1.8rem;
+}
+
+.me {
+  min-width: 14vw;
+  max-width: 150px;
+  padding: 1rem;
+
+  border-radius: 50%;
+  background-color: rgb(240, 92, 24);
+  box-shadow: 2px 4px 6px rgb(10, 10, 10);
+}
+
+.me:active,
+.me:hover {
+  transform: scale(1.1);
+  transition: .2s;
+}
+
+.link:active,
+.link:visited {
+  color:
+}
