@@ -39,7 +39,7 @@
 
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <img class="float-left" src="./images/robot-flower-right.png" alt="">
+      <img class="float-left" src="./images/robot-flower-new2.png" alt="">
       <h1 class="display-4 pt-4">Hi. I'm Judi.</h1>
       <p class="h2 pt-4">Web Developer</p>
     </div>
@@ -66,7 +66,7 @@
             <img src="./images/forkify.png" alt="Forkify App Image" class="img-fluid">
             <p class="card-text p-2">APIs, CSS and Sass </p>
 
-            <a href="#" class="btn btn-secondary card-btn mb-2">Visit</a>
+            <a href="https://judiphillips.github.io/forkify/" target="_blank" class="btn btn-secondary card-btn mb-2">Visit</a>
 
           </div>
         </div>
@@ -78,7 +78,7 @@
             <div class="img-fluid">
               <img src="./images/Trillo.png" alt="Trillo App Image" class="img-fluid"></div>
             <p class="card-text p-2">CSS Grid</p>
-            <a href="#" class="btn btn-secondary card-btn mb-2">Visit</a>
+            <a href="https://judiphillips.github.io/trillo/" target="_blank" class="btn btn-secondary card-btn mb-2">Visit</a>
 
           </div>
         </div>
@@ -89,7 +89,7 @@
             <h5 class="card-title pb-2">Nature Tours App</h5>
             <img src="./images/natours.png" alt="Natours App Image" class="img-fluid">
             <p class="card-text p-2">Reponsive CSS and Sass</p>
-            <a href="#" class="btn btn-secondary card-btn mb-2">Visit</a>
+            <a href="https://judiphillips.github.io/natours" target="_blank" class="btn btn-secondary card-btn mb-2">Visit</a>
 
           </div>
         </div>
@@ -112,7 +112,8 @@
     <div id="contact" class="img-robot"><img class="img-fluid" src="./images/robot-horizontal-right.png"
         alt="robot image"></div>
     <div class="d-flex flex-column">
-      <form>
+      
+      <form id="emailForm" action="mailto:judi.phillips@me.com" method="post">
         <p class="h4">How can I help you?</p>
         <div class="form-group">
           <label for="name">Name</label>
@@ -126,10 +127,9 @@
           <label for="message">Message</label>
           <textarea class="form-control" id="message" rows="3"></textarea>
         </div>
-        <button id="formSubmit" action="mailto:judi.phillips@me.com" method="POST" type="submit"
-          class="btn btn-secondary btn-lg card-btn m-3">Submit</button>
+        <button onclick="sendForm()" id="formSubmit" type="submit" class="btn btn-secondary btn-lg card-btn m-3">Submit</button>
       </form>
-
+  
     </div>
 
   </div>
@@ -218,7 +218,9 @@
   </script>
 
   <script>
-    console.log(formSubmit.);
+    let sendForm = function() {
+    document.getElementById('emailForm').submit();
+    }
   </script>
 </body>
 
