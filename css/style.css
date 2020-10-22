@@ -14,6 +14,9 @@ h3 {
   text-align: center;
 }
 
+
+
+
 .card-body {
   background-color: #ffffff;
   border-radius: 5px;
@@ -28,6 +31,10 @@ h3 {
   transform: scale(1.1);
   transition: .2s;
 
+}
+
+.sample {
+  width: 80%;
 }
 
 .card-btn {
@@ -52,6 +59,13 @@ h3 {
   background-color: #e9ecef;
   /* background-color: #b6b8b9; */
 }
+
+.img-main {
+  padding-right: 4.5rem;
+  padding-bottom: 2.5rem;
+  transform: scale(1.1);
+}
+
 
 .img-tablet {
   min-width: 100px;
@@ -108,3 +122,28 @@ h3 {
 .link:visited {
   color:
 }
+
+.rating:active, 
+.rating:visited {
+  color: orangered;
+}
+
+.rating::before, .rating::after {
+  
+}
+
+
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+
+/* Large devices (laptops/desktops, 1000px and under) */
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
