@@ -83,14 +83,7 @@ em {
        padding-left: 3rem;
      }
   }
-  
-/* Small devices (landscape phones, less than 768px) */
-@media only screen and (max-width: 767.98px) { 
-      
 
-     
-  } 
-  
   /* // Medium devices (tablets, less than 992px) */
   @media only screen and (max-width: 991.98px) { 
     .robot1 {
@@ -102,10 +95,9 @@ em {
         }
    
    
-        #robot-mega {
-            display: none;
-            
-        }
+    #robot-mega {
+        display: none;
+    }
   };
   
  
