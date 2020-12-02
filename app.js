@@ -1,4 +1,5 @@
 //jshint esversion:6
+
 const address = "https://judi.dev/";
 const newsletterAddress = "https://dudley-worms-31227.herokuapp.com/";
 const forkifyAddress = "https://forkify-jp.netlify.app/";
@@ -16,3 +17,13 @@ document.querySelector("#projects").addEventListener("click", (e) => {
     window.open(`${address}${id}/`);
   }
 });
+
+//EMAIL SEND
+
+// emailjs.sendForm('contact_service', 'contact_form', '#myForm')
+//     .then(function(response) {
+//        console.log('SUCCESS!', response.status, response.text);
+//     }, function(error) {
+//        console.log('FAILED...', error);
+//     });
+// };
